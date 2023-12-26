@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #FFFD8C;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-top: 25px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #496b05;
+}
+.navbar li a img{
+    height: 28px;
+}
+
+footer {
+    position: relative;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  footer p{
+    color: #1d3901;
+  }
+
+  .box{
+    max-width: 400px;
+    margin: 50px auto;
+    background: #AAFF00;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  .box h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #376c04;
+    padding: 10px 10px;
+  }
+
+  #list{
+    background: white;
+    min-height: 60vh;
+  }
+  
+  input{
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 334px;
+  }
+
+  button{
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #AAFF00;
+    color: #496b05;
+    font-size: 30px;
+    border-width: 0;
+    margin: 10px;
+  }
+
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f1f1f1;
+    
+  }
+
+
+  input[type="text"]{
+    text-align: center;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    font-weight: 200;
+    width: 313px;
+    
+}
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #AAFF00;
+}
+
+::placeholder{
+    
+    opacity: 1;
+    
+}
+
+#checkbox{
+  width: 20px;
+  margin-left: 20px;
+}
+
+.item p{
+  margin-left: 15px;
+  font-size: 30px;
+
+}
+
+span{
+  position: relative;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+}
